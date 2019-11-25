@@ -8,10 +8,7 @@ import (
 ) 
 
 func main(){
-//fmt.Println("Привет, я буду учить тебя считать !!!")
-//билд - go bild "название файла"
-//компиляция - go run "название файла" 
-//var sum int = 0
+
 cout := 0
 guess := -1
 var c string
@@ -21,13 +18,7 @@ var thy int = 0
 var f int
 var nn int
 fmt.Println();
-/*rand.Seed(time.Now().UnixNano())
-one = rand.Intn(101)
-//fmt.Println(one)
-rand.Seed(time.Now().UnixNano())
-thy = rand.Intn(101)
-//fmt.Println(thy)
-*/
+
 fmt.Print("Выбери способы операции вычисления: ")	//вывести сообщение
 fmt.Fscan(os.Stdin, &c)								//ввод с клавиатуры
 //fmt.Println(c)
