@@ -11,12 +11,14 @@ func main(){
 //изменения внесены
 cout := 0
 guess := -1
-var c string
-var n string
-var one int = 0
-var thy int = 0
-var f int
-var nn int
+var (
+ c string
+ n string
+ one int = 0
+ thy int = 0
+ f int
+ nn int
+)
 fmt.Println();
 
 fmt.Print("Выбери способы операции вычисления: ")	//вывести сообщение
