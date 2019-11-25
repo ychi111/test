@@ -8,7 +8,7 @@ import (
 ) 
 
 func main(){
-
+//изменения внесены
 cout := 0
 guess := -1
 var c string
